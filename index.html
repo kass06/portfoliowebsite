@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Developer Portfolio</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Add Google Fonts for custom typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+            <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-text">
+            <h1 id="hero-name">Kass marame</h1>
+            <p>Frontend Developer | UX/UI Designer</p>
+            <button><a href="#portfolio">View My Work</a></button>
+        </div>
+        <div class="hero-image">
+            <img src="images/background.JPG.JPG" alt="my picture" class="round-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey, I’m Kass Marame! I’m a front-end web developer with a love for creating websites that not only look amazing but also work like a charm. With 4 years of experience in the world of HTML, CSS, JavaScript, and frameworks like React and Vue.js, I’ve developed a knack for turning ideas into user-friendly digital experiences.
+
+          I’m all about making sure websites feel intuitive, perform fast, and look fantastic across all devices. I take pride in writing clean, efficient code and am always looking to learn the latest tricks of the trade. For me, coding is not just a job; it’s a passion, and I treat every project like it’s my own.
+          
+          I love collaborating with clients to bring their visions to life, whether it’s building a sleek landing page, creating a complex interactive interface, or just optimizing for better performance. Let’s make your project something you’re proud of—and maybe even have a little fun along the way!</p>
+        <div class="about-img">
+            <img src="images/background.JPG.JPG" alt="About Me Image">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js-square"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><i class="fab fa-node"></i> Node.js</li>
+            <li><i class="fab fa-php"></i> PHP</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio-items">
+      <div class="portfolio-item">
+          <img src="images/empoyee tracker dashboard.PNG" alt="Project 1" class="project-img">
+          <h3>employee tracker dashboard</h3>
+          <p>An app for employers to track how many employees the have and what their role is in the company.</p>
+          <div class="project-links">
+              <a href="https://github.com/kass06/employee-tracking-app" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://employee-tracker-app-eight.vercel.app/" target="_blank" class="project-link"><i class="fas fa-link"></i> Live Site</a>
+          </div>
+      </div>
+      <div class="portfolio-item">
+          <img src="images/African real estate.PNG" alt="Project 2" class="project-link">
+          <h3>real estate websites</h3>
+          <p>A website for a real estate agency</p>
+          <div class="project-links">
+              <a href="https://github.com/kass06/real-estate-website" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://realestatewebsite-phi.vercel.app/" target="_blank" class="project-link"><i class="fas fa-link"></i> Live Site</a>
+          </div>
+      </div>
+      <div class="portfolio-item">
+          <img src="images/company website.PNG" alt="Project 3" class="project-img">
+          <h3>company website</h3>
+          <p>a website for a bussiness consulting company</p>
+          <div class="project-links">
+              <a href="https://github.com" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://codewithkasswebsite.vercel.app/" target="_blank" class="project-link"><i class="fas fa-link"></i> Live Site</a>
+          </div>
+      </div>
+      <div class="portfolio-item">
+          <img src="images/manga story app.PNG" alt="Project 4" class="project-img">
+          <h3>manga story app</h3>
+          <p>A app where you can create your own manga and share with friends.</p>
+          <div class="project-links">
+              <a href="https://github.com" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://www.livesite.com" target="_blank" class="project-link"><i class="fas fa-link"></i> Live Site</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Links -->
+    <section id="social-links">
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Coded by kass . All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
